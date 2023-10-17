@@ -1,7 +1,7 @@
 describe("Filtrado inicial Hoteles",()=>{
     beforeEach(()=>{
         cy.viewport(1500, 902)
-        cy.visit("http://127.0.0.1:5500/index.htML")
+        cy.visit("https://dhlondono.github.io/hotels/")
     })
     
     it("verificar todas las cards",()=>{
